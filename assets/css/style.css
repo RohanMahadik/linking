@@ -1,0 +1,162 @@
+/* css for font start */
+
+
+
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../fonts/poppins/Poppins-Bold.eot');
+  src: url('../fonts/poppins/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/poppins/Poppins-Bold.woff2') format('woff2'),
+      url('../fonts/poppins/Poppins-Bold.woff') format('woff'),
+      url('../fonts/poppins/Poppins-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-ExtraBold';
+  src: url('../fonts/poppins/Poppins-ExtraBold.eot');
+  src: url('../fonts/poppins/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/poppins/Poppins-ExtraBold.woff2') format('woff2'),
+      url('../fonts/poppins/Poppins-ExtraBold.woff') format('woff'),
+      url('../fonts/poppins/Poppins-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('../fonts/poppins/Poppins-Medium.eot');
+  src: url('../fonts/poppins/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/poppins/Poppins-Medium.woff2') format('woff2'),
+      url('../fonts/poppins/Poppins-Medium.woff') format('woff'),
+      url('../fonts/poppins/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../fonts/poppins/Poppins-Light.eot');
+  src: url('../fonts/poppins/Poppins-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/poppins/Poppins-Light.woff2') format('woff2'),
+      url('../fonts/poppins/Poppins-Light.woff') format('woff'),
+      url('../fonts/poppins/Poppins-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Semibold';
+  src: url('../fonts/poppins/Poppins-SemiBold.eot');
+  src: url('../fonts/poppins/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/poppins/Poppins-SemiBold.woff2') format('woff2'),
+      url('../fonts/poppins/Poppins-SemiBold.woff') format('woff'),
+      url('../fonts/poppins/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../fonts/poppins/Poppins-Regular.eot');
+  src: url('../fonts/poppins/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/poppins/Poppins-Regular.woff2') format('woff2'),
+      url('../fonts/poppins/Poppins-Regular.woff') format('woff'),
+      url('../fonts/poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+/* css for font start */
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+.cursive h2 {
+  font-family: 'Pinyon Script', cursive;
+}
+
+.sans {
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  font-family: "Poppins-Regular", sans-serif;
+  color: #444444;
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  
+  text-decoration: none;
+}
+
+a:hover {
+  color: #206bfb;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins-Bold", sans-serif;
+  margin: 0;
+}
+
+.print{
+
+margin:  10px auto;
+}
+/* First Certificate Css start */
+.container{
+  max-width:1200px;
+  background-color: #618597;
+  padding: 30px;
+  color: #333;
+  font-family: 'Poppins-Regular', sans-serif;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin: 10px auto;
+
+  padding: 1%;
+  position: relative;
+}
+
+
+table tr th,tr td {
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+table tr th {
+  background-color: brown !important;
+  border: 1px solid #ddd;
+  color: #fff !important;
+}
+
+table tr th:first-child {
+  border-top-left-radius: 10px;
+  border-top: 0;
+  border-left: 0;
+}
+table tr th:last-child {
+  border-top-right-radius: 10px;
+  border-top: 0;
+  border-right: 0;
+}
+
+
+ 
